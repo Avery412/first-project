@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import '@fontsource/montserrat'
 import '@fontsource/montserrat/700.css'
+import '@fontsource/montserrat/600.css'
 
 
 createRoot(document.getElementById('root')).render(
