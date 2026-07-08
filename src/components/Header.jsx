@@ -1,7 +1,7 @@
 function Header() {
   return (
     <>
-      {/* HEADER */}
+      {/* Header */}
       <header 
         className="px-4 h-[63px]"
         style={{ 
@@ -10,7 +10,7 @@ function Header() {
           alignItems: 'center' 
         }}
       >
-        {/* LOGO */}
+        {/* Logo */}
         <div className="flex items-center">
           <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clipPath="url(#clip0_7101_32)">
@@ -29,7 +29,7 @@ function Header() {
           </svg>
         </div>
 
-        {/* MENU ICON */}
+        {/* Menu icon */}
         <div className="flex items-center">
           <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path 
@@ -42,7 +42,7 @@ function Header() {
         </div>
       </header>
 
-      {/* SEPARATOR */}
+      {/* Separator */}
       <div className="w-full" style={{ height: '1px', backgroundColor: '#E5E7EB' }}></div>
     </>
   )
