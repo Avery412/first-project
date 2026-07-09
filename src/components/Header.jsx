@@ -3,7 +3,7 @@ function Header() {
     <>
       {/* Header */}
       <header 
-        className="px-4 h-[63px]"
+        className="px-4 md:px-8 lg:px-16 h-[63px]"
         style={{ 
           display: 'flex', 
           justifyContent: 'space-between', 
@@ -29,8 +29,30 @@ function Header() {
           </svg>
         </div>
 
-        {/* Menu icon */}
-        <div className="flex items-center">
+        {/* Navigation (desktop and tablet) */}
+        <nav className="hidden md:flex items-center gap-8">
+          <a 
+            href="#main" 
+            className="text-base font-semibold text-[#696969] leading-[150%] hover:text-[#7E3AF2] transition"
+          >
+            Main
+          </a>
+          <a 
+            href="#about" 
+            className="text-base font-semibold text-[#696969] leading-[150%] hover:text-[#7E3AF2] transition"
+          >
+            About
+          </a>
+          <a 
+            href="#contacts" 
+            className="text-base font-semibold text-[#696969] leading-[150%] hover:text-[#7E3AF2] transition"
+          >
+            Get in touch
+          </a>
+        </nav>
+
+        {/* Menu icon (mobile) */}
+        <div className="flex items-center md:hidden">
           <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path 
               fillRule="evenodd" 

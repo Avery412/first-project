@@ -1,6 +1,6 @@
 function Contacts() {
   return (
-    <section className="relative w-full min-h-[740px] px-4 pt-[60px] pb-[60px] overflow-hidden">
+    <section id="contacts" className="relative w-full min-h-[740px] px-4 pt-[60px] pb-[60px] overflow-hidden">
       {/* Background image */}
       <div className="absolute inset-0 z-0">
         <img 

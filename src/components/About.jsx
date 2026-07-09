@@ -1,6 +1,6 @@
 function About() {
   return (
-    <section className="flex flex-col items-start px-4 pt-[40px] gap-4">
+    <section id="about" className="flex flex-col items-start px-4 pt-[40px] gap-4">
       {/* About me */}
       <section className="flex flex-col items-start w-full gap-4">
         <h2 className="text-xl font-semibold text-black">

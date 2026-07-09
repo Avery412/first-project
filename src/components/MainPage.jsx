@@ -1,6 +1,6 @@
 function MainPage() {
   return (
-    <>
+    <section id="main" classname="">
       {/* Name and position */}
       <section className="flex flex-col items-start px-4 pt-[28px] gap-1">
         <h1 className="text-2xl font-bold text-black">
@@ -11,7 +11,7 @@ function MainPage() {
         </p>
       </section>
 
-      {/* Line and description */}
+      {/* Separator and description */}
       <section className="flex flex-col items-start px-4 pt-[35px] gap-6">
         <div className="w-[25px] h-0 border-t-[3px] border-[#7E3AF2]"></div>
         <p className="text-sm font-normal text-[#696969] leading-[150%]">
@@ -41,7 +41,7 @@ function MainPage() {
           />
         </div>
       </section>
-    </>
+    </section>
   )
 }
 
